@@ -1,0 +1,15 @@
+[env]
+#CC=/tools/gcc/redhat/8/10.1.0/bin/gcc
+#CXX=/tools/gcc/redhat/8/10.1.0/bin/g++
+CC=/usr/bin/gcc
+CXX=/usr/bin/g++
+
+[settings]
+os=Linux
+compiler=gcc
+arch=x86_64
+arch_build=x86_64
+os_build=Linux
+build_type=Release
+compiler.libcxx=libstdc++11
+compiler.version=10.3
